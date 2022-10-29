@@ -27,7 +27,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="✧ᴍᴀɪɴᴛᴀɪɴᴇʀ✧", user_id=OWNER),
             InlineKeyboardButton(
-                text="✧sᴜᴩᴩᴏʀᴛ✧", url=f"{config.SUPPORT_GROUP}"
+                text="✧sᴜᴩᴩᴏʀᴛ✧", url=f"https://t.me/+p2A5gHTe9_YzNDk1"
             ),
         ],
      ]
@@ -38,7 +38,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text=" ╚»ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ«╝ ",
+                text=" ╚»ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ❤️«╝ ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
@@ -46,18 +46,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="✧ʜᴇʟᴩ✧", callback_data="settings_back_helper"
             ),
-            InlineKeyboardButton(text="✧ᴅᴇᴠᴇʟᴏᴘᴇʀ✧", url=f"https://t.me/export_gabbar"),
+            InlineKeyboardButton(text="✧ᴏᴡɴᴇʀ⚛✧", url=f"https://t.me/toxic_aadi28"),
         ],
         [ 
-            InlineKeyboardButton(text="✧ᴄʜᴀɴɴᴇʟ✧", url=f"{config.SUPPORT_CHANNEL}"),
-            InlineKeyboardButton(text="✧sᴜᴩᴩᴏʀᴛ✧", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="⚡ᴅᴇᴠᴇʟᴏᴩᴇʀ⚡", url=f"https://t.me/heartlessaryan_op"),
+            InlineKeyboardButton(text="✧sᴜᴩᴩᴏʀᴛ✧", url=f"https://t.me/+p2A5gHTe9_YzNDk1"),
         ],
-        [
-            InlineKeyboardButton(text="✧sᴏᴜʀᴄᴇ✧", url=f"{config.UPSTREAM_REPO}"),
-            InlineKeyboardButton(text="✧ᴍᴀɪɴᴛᴀɪɴᴇʀ✧", user_id=OWNER)
-        ],
+       
      ]
     return buttons
-
-
-
