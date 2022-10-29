@@ -45,7 +45,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/myworldGJ516")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/GJ516_DISCUSS_GROUP")
+    "SUPPORT_GROUP", "https://t.me/+p2A5gHTe9_YzNDk1")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -122,7 +122,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://telegra.ph/file/e4ccacd74d5545c16ac85.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
