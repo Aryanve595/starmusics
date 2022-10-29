@@ -24,14 +24,48 @@ PING_COMMAND = get_command("PING_COMMAND")
 async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
         photo=PING_IMG_URL,
-        caption=_["ping_1"],
+       caption=" Pinging...⚡ ",
+
     )
-    start = datetime.now()
-    pytgping = await GJ516.ping()
-    UP, CPU, RAM, DISK = await bot_sys_stats()
-    resp = (datetime.now() - start).microseconds / 1000
-    await response.edit_text(
-        _["ping_2"].format(
-            resp, MUSIC_BOT_NAME, UP, RAM, CPU, DISK, pytgping
-        )
+
+    await aditi.edit_text(
+
+        f"""<b> pong ping ! ⚡</b>\n  🏓 {resp} ms\n\n<b><u>{BOT_NAME} system stats:</u></b>\n\n✨ Uptime : {bot_uptime}\n🔮 Cpu : {cpu}%\n💫 Disk : {disk}%\n❤️ Ram : {mem}\n\nᴍᴀᴅᴇ 🖤 ʙʏ [🕊️★ Aryan ★🇮🇳⃝🕊️](https://t.me/heartlessaryan_op)""",
+
+        reply_markup=InlineKeyboardMarkup(
+
+            [
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "📨 Support ", url=f"https://t.me/+p2A5gHTe9_YzNDk1"
+
+                    ),
+
+                    InlineKeyboardButton(
+
+                        "📨 owner ", url=f"https://t.me/Toxic_aadi28"
+
+                    ),
+
+                ],
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "💡Developer ", url="https://t.me/Heartlessaryan_op"
+
+                    )
+
+                ]
+
+            ]
+
+        ),
+
     )
+
+Footer
