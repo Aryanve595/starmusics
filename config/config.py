@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "GJ516 MUSIC")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1864894033").split())
+    map(int, getenv("OWNER_ID", "2142620711").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,7 +36,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-     "https://github.com/MrProgrammer72/GJ516XMusic",
+     "https://github.com/Aryanve595/starmusics",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
