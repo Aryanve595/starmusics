@@ -292,7 +292,7 @@ def panel_markup_1(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text=_["S_B_3"],
-                url=f"{config.SUPPORT_GROUP}",
+                url=f"https://t.me/+p2A5gHTe9_YzNDk1",
             ),
         ],
         [
