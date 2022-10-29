@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CZp7eIAACaD5jT_B5ItSk5M33SkPc2AProK4GIgACdAYAArJscVY0KNBsR3kYDh4E")
+           
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -84,7 +84,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/GJ516_DISCUSS_GROUP) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/+p2A5gHTe9_YzNDk1) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -159,7 +159,7 @@ async def start_comm(client, message: Message, _):
                             text=" ʏᴏᴜᴛᴜʙᴇ ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text=" sᴜᴩᴩᴏʀᴛ ", url="https://t.me/GJ516_DISCUSS_GROUP"
+                            text=" sᴜᴩᴩᴏʀᴛ ", url="https://t.me/+p2A5gHTe9_YzNDk1"
                         ),
                     ],
                 ]
