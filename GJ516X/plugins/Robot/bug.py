@@ -13,7 +13,7 @@ from config import (
     OWNER_ID as owner_id,
 )
 
-SUPPORT = "ADVENTURE_FAMILY"
+SUPPORT = "crazy world"
 
 def content(msg: Message) -> [None, str]:
     text_to_return = msg.text
@@ -45,7 +45,7 @@ async def bug(_, msg: Message):
     thumb = "https://te.legra.ph/file/016110e7a77f6427ece2a.jpg"
     
     bug_report = f"""
-**#ʙᴜɢ :** **@export_gabbar**
+**#ʙᴜɢ :** **@heartlessaryan_op**
 
 **ʀᴇᴩᴏʀᴛᴇᴅ ʙʏ :** **{mention}**
 **ᴜsᴇʀ ɪᴅ :** **{user_id}**
