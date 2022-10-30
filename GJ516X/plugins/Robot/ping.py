@@ -1,4 +1,4 @@
-import os 
+import os 
  import asyncio 
  import time 
  from datetime import datetime 
@@ -37,7 +37,7 @@ import os
      return ping_time 
   
   
- @Client.on_message(command(["ping", "repo", "aryan", "alive"]) & filters.group & ~filters.edited & ~filters.private) 
+ @Client.on_message(command(["ping", "aditi", "aryan", "alive"]) & filters.group & ~filters.edited & ~filters.private) 
   
  async def help(client: Client, message: Message): 
      await message.delete() 
